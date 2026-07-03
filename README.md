@@ -15,3 +15,5 @@ python test_run.py
 
 ## Status
 Passing test suite (7/7). Not yet validated against real production agent workloads.
+Loop detection uses semantic similarity (threshold 0.85), not exact string match —
+catches loops that vary by counter/timestamp.
